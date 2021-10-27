@@ -14,3 +14,19 @@ Por enquanto é isso um projeto em fase inicial para o nosso primeiro commit
 
 Eu dei uma breve estilizada no componente header com o style scoped, nada demais e o sites
 está com aquela cara de site, mostrando as páginas muito didático até aqui
+
+Tive uma daquelas aulas do destino. Eu coloquei uma variável estarnha dentro do componente contato
+que eu nem estava usando direito e ele deu um erro loko. O router funcionava 3 vezes e parava
+mudava o url mas não mudava a pasta, precisei usar todas as minhas habilidades de progrmador pra achar
+a porra do erro. Não é perda de tempo é ganho de musculatura. Tudo bem.
+E ai depois foi a hora da home que não aparecia. Dizia que alguma coisa não estava registrada direito
+com o componente. Mas infelizmente esse eu não consegui achar o erro. Voltou a funcionar sem eu achar onde
+estava o erro. Infelizmente. Quero comitar agora com tudo funciondo. Depois de tomar muitos erros a gente 
+fica sensível. 
+
+COMMIT REAL
+Eu acho que não comitei o texto antenrior. Então esse aqui é sobre os mixins, são compatíveis aos models, 
+arquivos que exportam e trazem dados para o site. É um js com uma função que com ajuda de um parametro
+traz da api falsa os dados para o site.vue. Eu tive problemas com a falta de um this, dentro do cursos,
+nada demais porém importante para poder progredir. Acho que somente vendo o commit já da pra ter uma boa
+ideia de como a banda toca.

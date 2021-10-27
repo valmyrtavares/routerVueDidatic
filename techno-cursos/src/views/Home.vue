@@ -1,29 +1,27 @@
 <template>
   <div class="home">
   <h1>Eu sou a home</h1>
+  <div v-if="loading"> 
+    <p>Carregando...</p>
+  </div>
+  <div v-if="api">
   {{api}}
+  </div>
+
+
   </div>
 </template>
 
 <script>
-
+import fetchData from '@/mixins/fetchData.js';
 
 
 export default {
   name: 'Home',
-  data(){
-    return{
-      api:""
-    }
-  },
-  methods:{
-    fetchData(){
-      fetch("http://localhost:3000/home")
-      .then(r=> r.json())
-      .then(r => {
-        this.api = r
-      })
-    }
+  mixins:[fetchData],
+  
+  created(){
+    this.fetchData('/home')
   }
 
 }
