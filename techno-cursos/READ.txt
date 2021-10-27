@@ -1,0 +1,13 @@
+Esse é um projeto com mais elementos que deve me colocar em uma condição
+melhor de entender o processo de criação do vue. Eu fia com o vue create nomeprojeto
+E escolhi que o router seja incluso no processo. Ele faz uma pasta router com um index dentro.
+Eu tentei mudar para que ficasse igual ao do tutorial mas tomei muitos erros e resolvi deixar como
+estava. Fiz duas páginas e um componente, sempre lembrando que página é uma entidade mais completa que 
+componente que pode ser apenas um acessório da página. Fiz um compoente TheHeader, o nome segue
+o que foi feito no tutorial, eu mesmo não daria esse nome, e o importei ele dentro do App.
+
+Um ponto importante a se destacar aqui é o processo diferente para importar um componente dentro
+do outro e o processo de usar um router para mostrar uma página diferente. A diferencça entre essas
+duas manobras é um essencial para acelerar o processo de entendimento das ferramenta. 
+
+Por enquanto é isso um projeto em fase inicial para o nosso primeiro commit
