@@ -43,6 +43,7 @@ nav{
     
 }
 
+
 .logo a{
     color:white ;
 }
