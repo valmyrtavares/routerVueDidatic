@@ -16,7 +16,7 @@ export default  {
             setTimeout(()=>{
                 this.api = r;
                 this.loading = false;
-            },1000)
+            },2000)
 
         })
         }

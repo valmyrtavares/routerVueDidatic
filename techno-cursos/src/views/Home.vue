@@ -2,7 +2,7 @@
   <div class="home">
   <h1>Eu sou a home</h1>
   <div v-if="loading"> 
-    <p>Carregando...</p>
+  <PageLoading/>
   </div>
   <div v-if="api">
   {{api}}

@@ -1,14 +1,13 @@
 <template>
-<div>
+  <div>
     <h1>Eu sou o contato</h1>
-      <div v-if="loading"> 
-    <p>Carregando...</p>
+    <div v-if="loading"> 
+      <PageLoading/>
+    </div>
+    <div v-if="api">
+      {{api}}
+    </div>
   </div>
-  <div v-if="api">
-  {{api}}
-  </div>
-
-</div>
 </template>
 
 <script>

@@ -30,3 +30,6 @@ arquivos que exportam e trazem dados para o site. É um js com uma função que 
 traz da api falsa os dados para o site.vue. Eu tive problemas com a falta de um this, dentro do cursos,
 nada demais porém importante para poder progredir. Acho que somente vendo o commit já da pra ter uma boa
 ideia de como a banda toca.
+
+Nesse commit foi feito o componente de lodingPage bem interessante o jeito de se criar. Nada de vue só css mesmo
+e exatamente por isso eu coloquei no adianto css
