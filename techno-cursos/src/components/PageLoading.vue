@@ -39,7 +39,7 @@ export default{
     }
     @keyframes dots{
         from {
-            transform:translated3D(0,0,0);
+            transform:translate3d(0,0,0);
         }
         to{
             transform: translate3d(0,30px,0)

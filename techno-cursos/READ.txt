@@ -33,3 +33,6 @@ ideia de como a banda toca.
 
 Nesse commit foi feito o componente de lodingPage bem interessante o jeito de se criar. Nada de vue só css mesmo
 e exatamente por isso eu coloquei no adianto css
+
+Eu acho que vale a pena fazer um commit aqui somente sobre a forma de se fazer transição com o vue e essa variação
+interessante sobre css de componente e css global. Isso é de fato muito interessante. 

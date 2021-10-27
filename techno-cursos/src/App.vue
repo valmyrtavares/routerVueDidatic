@@ -36,4 +36,13 @@ a.router-link-active{
   color:#4b8;
 }
 
+.v-enter{
+  opacity:0;
+  transform:translate3d(-20px,0,0)
+}
+
+.v-enter-active{
+  transition:all .3s
+}
+
 </style>

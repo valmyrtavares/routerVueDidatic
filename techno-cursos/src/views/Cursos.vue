@@ -4,9 +4,11 @@
         <div v-if="loading"> 
              <p><PageLoading/></p>
         </div>
+        <transition>
         <div v-if="api">
-          {{api}}
+            {{api}}
         </div>
+        </transition>
     </div>
 
 </template>
