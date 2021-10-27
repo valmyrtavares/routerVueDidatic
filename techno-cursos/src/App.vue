@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <theHeader/>
-  
-    <router-view/>
+    <div class="main_content">
+      <theHeader/>  
+      <router-view/>
+    </div>
+
   </div>
 </template>
 
@@ -17,6 +19,10 @@ export default{
 </script>
 
 <style>
+.main_content{
+  width:80%;
+  margin:10px auto;
+}
 body{
   margin:0px;
   font-family:Arial, Helvetica, sans-serif;
@@ -43,6 +49,14 @@ a.router-link-active{
 
 .v-enter-active{
   transition:all .3s
+}
+img{
+  max-width:100%;
+}
+.conteudo{
+  display:grid;
+  grid-template-columns: 1fr minmax(200px,400px);
+  grid-gap:30px;
 }
 
 </style>

@@ -36,3 +36,6 @@ e exatamente por isso eu coloquei no adianto css
 
 Eu acho que vale a pena fazer um commit aqui somente sobre a forma de se fazer transição com o vue e essa variação
 interessante sobre css de componente e css global. Isso é de fato muito interessante. 
+
+Estilizamos a home variando entre classes globais e locais. Eu até pararai aqui, mas tenho de memória que ainda tem 
+uma parte de router interessante para passar.
