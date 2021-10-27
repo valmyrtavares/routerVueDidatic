@@ -11,3 +11,6 @@ do outro e o processo de usar um router para mostrar uma página diferente. A di
 duas manobras é um essencial para acelerar o processo de entendimento das ferramenta. 
 
 Por enquanto é isso um projeto em fase inicial para o nosso primeiro commit
+
+Eu dei uma breve estilizada no componente header com o style scoped, nada demais e o sites
+está com aquela cara de site, mostrando as páginas muito didático até aqui
