@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>Eu sou o contato</h1>
+  <div>   
     <div v-if="loading"> 
       <PageLoading/>
     </div>

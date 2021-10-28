@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <h1>Página de cursos</h1>
+    <div>      
         <div v-if="loading"> 
              <p><PageLoading/></p>
         </div>

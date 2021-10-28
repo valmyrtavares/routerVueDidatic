@@ -68,3 +68,11 @@ view que também está dentro de app. No próximo commit nós vamos compartilhar
 As aulas do curso serão mostradas dentro da página curso. Aqui nós fizemos somente uma breve estilização do curso e 
 da mesma forma que foi feito dentro de cursos, vamos transformar cada aula em um link, com a diferença de que ela 
 não nos levará para outra página. Cada aula será mostrada dentro da página curso
+
+Uma frase que me chamou muito a atenção e que eu acabei de ouvir é que o router-view só se rá mostrado se o curso tiver filhos
+Então em concluo com isso que somos todos filhos do app. Não há nada que não esteja dentro do app
+
+Aqui encerramos o pequeno projeto vue bem interessante onde dentro da pasta curso que é carregado dinamicamente, a 
+partir da página cursos e exibe dentro da sua propria página o video das aulas de cada curso. Muito interessante, mas
+aqui nesse último commit vale ressaltar é necessário os frutos a partir desse conhecimento
+Existe um conheciemnto excendete sobre como incorporar páginas do youtube que vale a pena dar uma boa olhada.
