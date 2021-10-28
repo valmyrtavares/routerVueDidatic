@@ -15,7 +15,7 @@
         <li v-for="avaliacao in api.avaliacoes" :key="avaliacao.nome">
           <p>{{avaliacao.nome}}</p>
           <p>{{avaliacao.descricao}}</p>
-          <router-link class="btn-cursos" tag="button" to='/cursos '>Cursos</router-link>
+          <router-link class="btn-cursos" tag="button" to='/cursos'>Cursos</router-link>
         </li>
       </ul>
     </div>

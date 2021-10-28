@@ -6,7 +6,16 @@
         </div>
         <transition>
         <div v-if="api">
-            {{api}}
+            <h1>{{api.titulo}}</h1>
+            <p>{{api.descricao}}</p>
+            <ul>
+                <li v-for="curso in api.cursos" :key="curso.id">
+                    <router-link to="">
+                    <h2>{{curso.nome | aulas}} {{curso.horas}} horas </h2>
+                    </router-link>
+                    <p>{{curso.descricao}}</p>
+                </li>
+            </ul>
         </div>
         </transition>
     </div>
