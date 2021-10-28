@@ -43,3 +43,17 @@ uma parte de router interessante para passar.
 Ainda antes dessa parte muito interessante para entrar estilizamos o contato e o cursos, e já abrimos um novo
 arquivo curso que ainda está cru. E agora vamo entrar na parte de rota filho, que é um assunto que ficou 
 um tanto obscuro pra mim. Por isso acho que é uma boa ideia dar um commit aqui
+
+Aqui tem um ponto que deu um nó na minha cabeça. Que é a linha 13 de /Cursos. Dentro do cursos eu chamo
+o singular, curso. Que é uma página também, mas só que ela mostra conteúdo dinamico, ou seja, ela é carregada
+com diferentes conteúdoS de cada curso. A página curso é só uma plataforma que será carregada com seja lá o que for.
+Essa não é uma ideia nova. Eu já fiz isso outras vezes, mas parece que não foi o suficiente ou foi mas aqui me parece
+amazing. Quando em php eu mostro um modal com cada produto do meu menu, eu mostro um modal ou uma página que cada hora
+será uma, será o que o cliente clicar. Não é nada muito novo. Ok. Mas aqui a partir do link que é posto dentro da página
+cursos eu clico e levo o curso.id e injeto dentro da página curso através de uma props
+
+Importante enfatizar aqui que quem tem pros: true é o curso dentro do router. Dentro do curso ele tem uma props curso
+declarada, que no final só serve como parametro para entra dentro das api e buscar o conteúdo. Na parte do template
+quem é trazido é a api, como sempre, com toda a estrutura que já usei antes. pageLoading e tudo mais
+Nesse momento está tudo funcionando a contento e acho que é um bom momento para fazer outro commit. Temos uma página curso
+que de forma programática traz conteúdos da api para ser usado dentro dela
