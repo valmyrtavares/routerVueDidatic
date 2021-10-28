@@ -76,3 +76,7 @@ Aqui encerramos o pequeno projeto vue bem interessante onde dentro da pasta curs
 partir da página cursos e exibe dentro da sua propria página o video das aulas de cada curso. Muito interessante, mas
 aqui nesse último commit vale ressaltar é necessário os frutos a partir desse conhecimento
 Existe um conheciemnto excendete sobre como incorporar páginas do youtube que vale a pena dar uma boa olhada.
+
+Acrescentei mais um commit para incluir a pastinha do json-server, só pra constar que com 
+json-server --watch api
+Ele roda e vc pode consumir a api e fazer os cruds
