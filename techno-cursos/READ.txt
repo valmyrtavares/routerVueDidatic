@@ -57,3 +57,14 @@ declarada, que no final só serve como parametro para entra dentro das api e bus
 quem é trazido é a api, como sempre, com toda a estrutura que já usei antes. pageLoading e tudo mais
 Nesse momento está tudo funcionando a contento e acho que é um bom momento para fazer outro commit. Temos uma página curso
 que de forma programática traz conteúdos da api para ser usado dentro dela
+
+Acho que é importante frisar que router-view é a ferramenta que o vue dispõe para que um conteúdo possa ser mostrado dentro
+de outro componente, ou seja, tudo que foi feito até agora foi mostrado dentro de app, com chaveamentos mil
+Home aparece dentro de app, contato também, cursos também, lembrando que a pagina cursos é somente um indice de nomes
+clicávies. O curso se fato aparece somente depois de vc clicar no nome do curso que está dentro de cursos. Mas até 
+a página curso também abre dentro de app. Tudo está dentro de app , porque somente app tem o router-view. EU estou
+frisando isso nesse momento porque é agora que vamos quebrar essa regra, fazendo que conteúdos compartilhem outra
+view que também está dentro de app. No próximo commit nós vamos compartilhar a página curso para mostrar as aulas do curso
+As aulas do curso serão mostradas dentro da página curso. Aqui nós fizemos somente uma breve estilização do curso e 
+da mesma forma que foi feito dentro de cursos, vamos transformar cada aula em um link, com a diferença de que ela 
+não nos levará para outra página. Cada aula será mostrada dentro da página curso

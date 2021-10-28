@@ -5,7 +5,7 @@
              <p><PageLoading/></p>
         </div>
         <transition>
-        <div v-if="api">
+        <div v-if="api" class="conteudo">
             <h1>{{api.titulo}}</h1>
             <p>{{api.descricao}}</p>
             <ul>
